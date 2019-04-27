@@ -1,0 +1,19 @@
+{
+    "name": "cboulanger/test",
+    "type": "prestashop-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Constantin Boulanger",
+            "email": "constantin.boulanger@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CBoulanger\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0"
+    }
+}
